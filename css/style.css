@@ -1,0 +1,150 @@
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+/* Main Div */
+.main {
+    background-image: url(../images/background.png);
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/**************************
+    Total Section
+***************************/
+.total {
+    display: inline-block;
+}
+.total-section {
+    background-color: #15a1ed;
+    border-radius: 5px;
+    width: 50%;
+    top: 50%;
+    left: 25%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.income-total {
+    display: inline-block;
+}
+
+.income-section {
+    background-color: #41d141;
+    border-radius: 5px;
+    width:  50%;
+    top: 50%;
+    left: 25%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.expenses-total {
+    display: inline-block;
+}
+.expenses-section {
+    background-color: #d13838;
+    border-radius: 5px;
+    width:  50%;
+    top: 50%;
+    left: 25%;
+    position: relative;
+}
+
+h3.total {
+    position: relative;
+    left: -24%;
+}
+
+div.total {
+    position: relative;
+    left: 24%;
+}
+
+h3.income-total {
+    position: relative;
+    left: -20%;
+}
+
+div.income-total {
+    position: relative;
+    left: 20%;
+}
+
+
+h3.expenses-total {
+    position: relative;
+    left: -17%;
+}
+
+div.expenses-total {
+    position: relative;
+    left: 17%;
+}
+
+.expenses-footer {
+    height: 10px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/**************************
+    Total Section
+***************************/
+.add {
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.add-article {
+    display: inline-block;
+}
+
+.add-description input {
+    width: 350px;
+}
+/**************************
+    Details
+***************************/
+.income-header {
+    text-align: center;
+    color: #41d141;
+}
+.expenses-header {
+    text-align: center;
+    color: #d13838;
+}
+
+.expenses-amount {
+    text-align: right;
+    color: #d13838;
+}
+
+.income-amount {
+    text-align: right;
+    color: #41d141;
+}
+
+tr.income-tr:nth-child(odd) {background-color: #f2f2f2;}
+
+tr.expenses-tr:nth-child(odd) {background-color: #f2f2f2;}
+
+tr {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.image-class {
+    width: 20px;
+    height: 20px;
+}
+
+.right {
+    text-align: right;
+}

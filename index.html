@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cash Tracker</title>
+	<link rel='icon' href='images/favicon.ico' type='image/x-icon' sizes="16x16" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/script.js" defer>
+
+	</script>
+</head>
+<body>
+	<main id="main" class="main">
+		<section class="total-section">
+			<h3 class="total">
+				Total Cash
+			</h3>
+			<div id="total" class="total bold">
+
+			</div>
+		</section>
+		<section class="income-section">
+			<h3 class="income-total">
+				Total Income
+			</h3>
+			<div id="incomeTotal" class="income-total bold">
+
+			</div>
+		</section>
+		<section class="expenses-section">
+			<h3 class="expenses-total">
+				Total Expenses
+			</h3>
+			<div id="expensesTotal" class="expenses-total bold">
+
+			</div>
+		</section>
+		<section class="expenses-footer">
+		</section>
+	</main>
+	<article id="add" class="add">
+		<div class="add-type add-article">
+			<select id="type">
+                <option value="income" selected>Income</option>
+                <option value="expense">Expenses</option>
+			</select>
+		</div>
+		<div class="add-description add-article">
+			<input id="description" type="text" placeholder="Add description">
+		</div>
+		<div class="add-amount add-article">
+			<input id="amount" type="number" min="0" placeholder="Value">
+		</div>
+		<div class="add-submit add-article">
+			<button id="addButton" class="btn btn-primary">Add</button>
+		</div>
+	</article>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="income-header">Income</h2>
+				<table class="table" id="income-table">
+				</table>
+			</div>
+			<div class="col">
+				<h2 class="expenses-header">Expenses</h2>
+				<table class="table" id="expenses-table">
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
